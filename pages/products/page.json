@@ -1,26 +1,35 @@
 {
 	"name": "products",
-	"products": [
+	"tags": [
 		{
-			"id": "/product",
-			"price": 1200,
-			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-        	"thumb": "https://neryxomka.com/template/img/welcome.png",
-			"name": "product"
-		},
-		{
-			"id": "/product",
-			"price": 1200,
-			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-        	"thumb": "https://neryxomka.com/template/img/welcome.png",
-			"name": "product"
-		},
-		{
-			"id": "/product",
-			"price": 1200,
-			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-        	"thumb": "https://neryxomka.com/template/img/welcome.png",
-			"name": "product"
+			"name": "TAG NAME",
+			"products": [
+				{
+					"id": "/product",
+					"price": "1200",
+					"weight": "1200",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+					"thumb": "/denyskhorolsky/img/avatar.png",
+					"name": "product"
+				},
+				{
+					"id": "/product",
+					"price": "1200",
+					"weight": "1200",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+					"thumb": "/denyskhorolsky/img/avatar.png",
+					"name": "product"
+				},
+				{
+					"id": "/product",
+					"price": "1200",
+					"weight": "1200",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+					"thumb": "/denyskhorolsky/img/avatar.png",
+					"name": "product"
+				}
+			]
+
 		}
 	]
 }

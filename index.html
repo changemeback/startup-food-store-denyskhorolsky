@@ -19,16 +19,22 @@
 
 	<meta name="keywords" content="{{{keywords}}}">
 	<base href="/">
-	<link rel="icon" type="image/x-icon" href="/template/img/favicon.ico">
-	<link rel="stylesheet" href="/template/css/index.css">
+	<link rel="icon" type="image/x-icon" href="/denyskhorolsky/img/favicon.ico">
+	<link rel="stylesheet" href="/denyskhorolsky/css/index.css">
 	<style>
 	/* <!-- CSS --> */
 	</style>
 </head>
 <body>
+	<!-- TODO add topbar code -->
 
 	<!-- HTML -->
-	<script src="/template/js/index.js"></script>
+
+	<!-- TODO add footer code -->
+	{% if variables.phone %}
+	{{{variables.phone}}}
+	{% endif %}
+	<script src="/denyskhorolsky/js/index.js"></script>
 	<script>
 	// <!-- JS -->
 	</script>

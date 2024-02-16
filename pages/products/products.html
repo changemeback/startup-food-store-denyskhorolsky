@@ -1,8 +1,15 @@
-{% for product in products %}
+{% for tag in tags %}
+<!-- TODO add tag block -->
+{{{tag.name}}}
+
+{% for product in tag.products %}
+<!-- TODO add product block -->
 <h1>{{{product.name}}}</h1>
 <img src="{{{product.thumb}}}" alt="{{{product.name}}}">
 <div>
-	{{{product.short}}}
+	{{{product.description}}}
 </div>
 <span>{{{product.price}}}</span>
+<span>{{{product.weight}}}</span>
+{% endfor %}
 {% endfor %}
