@@ -1,15 +1,39 @@
-{% for tag in tags %}
-<!-- TODO add tag block -->
-{{{tag.name}}}
+<!-- MENY 1 START -->
+<header class="menystart">
+	<div class="outercont">
+		<div class="container3">
+			{% for tag in tags %}
+			<!-- {{{tag.name}}} -->
 
-{% for product in tag.products %}
-<!-- TODO add product block -->
-<h1>{{{product.name}}}</h1>
-<img src="{{{product.thumb}}}" alt="{{{product.name}}}">
-<div>
-	{{{product.description}}}
-</div>
-<span>{{{product.price}}}</span>
-<span>{{{product.weight}}}</span>
-{% endfor %}
-{% endfor %}
+			{% for product in tag.products %}
+			<ul class="meny1">
+				<li>
+					<span class="jost-medium">{{{product.name}}} ({{{product.weight}}})</span>
+					<span class="jost-medium">{{{product.price}}}</span>
+					<!-- <img src="{{{product.thumb}}}" alt="{{{product.name}}}"> -->
+					<!-- {{{product.description}}} -->
+				</li>
+
+				<!-- <li>
+					<span class="jost-medium">АНГЛІЙСЬКИЙ СНІДАНОК (380Г)</span>
+					<span class="jost-medium">198</span>
+				</li>
+				<li>
+					<span class="jost-medium">СКРАМБЛ З ВЕРШКОВИМ ШПИНАТОМ ТА БЕКОНОМ (250Г)</span>
+					<span class="jost-medium">172</span>
+				</li>
+				<li>
+					<span class="jost-medium">ФРЕНЧ ТОСТ (360Г)</span>
+					<span class="jost-medium">186</span>
+				</li>
+				<li>
+					<span class="jost-medium">СИРНИКИ ЗІ СМЕТАНОЮ ТА ПОЛУНИЧНИМ ДЖЕМОМ (240Г)</span>
+					<span class="jost-medium">135</span>
+				</li> -->
+			</ul>
+			{% endfor %}
+			{% endfor %}
+		</div>
+	</div>
+</header>
+<!-- MENY 1 END -->
